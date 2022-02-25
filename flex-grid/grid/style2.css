@@ -1,0 +1,197 @@
+* {
+  --green: #1ab26b;
+  --darkgrey: #6e6e6e;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: solid 1px red; */
+}
+
+h1 {
+  color: white;
+  font-family: arial;
+  font-size: 4rem;
+  font-weight: 600;
+  /* margin-top: 0rem;
+  margin-bottom: 0rem; */
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-family: arial;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.subtitle h2 {
+  text-decoration: underline 5px var(--green);
+  text-underline-offset: 0.5rem;
+}
+
+.footer-txt h2 {
+  text-decoration: underline 5px white;
+  text-underline-offset: 0.5rem;
+  line-height: 3rem;
+}
+
+h3 {
+  color: white;
+  font-family: arial;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 1.8rem;
+  padding: 1rem;
+  margin-top: 0rem;
+  text-align: center;
+}
+h4 {
+  color: var(--green);
+  font-size: 1.2rem;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.trio p {
+  font-family: arial;
+  color: var(--darkgrey);
+  text-align: center;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(20, 5vw);
+  border: solid 2px red;
+  background-color: white;
+  position: fixed;
+}
+.logo {
+  margin-left: 0.5rem;
+  float: left;
+  border: solid 2px blue;
+}
+
+.top-content {
+  display: block;
+  text-align: center;
+}
+.nav {
+  float: left;
+  clear: both;
+  border: solid 2px green;
+}
+.nav ul li {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  border: solid 2px orange;
+}
+.nav a {
+  text-decoration: none;
+  font-family: arial;
+  letter-spacing: 0.1rem;
+  font-weight: lighter;
+  padding: 1rem;
+  color: var(--darkgrey);
+}
+/* .top-content {
+  display: inline-block;
+  border: solid 5px black;
+}
+.nav {
+  margin-right: 0.2rem;
+  border: solid 1px green;
+}
+.nav li {
+  list-style: none;
+  padding: 0.5rem;
+  border: solid 1px blue;
+}
+.nav ul {
+  margin-left: 3rem;
+} */
+
+.header {
+  background-image: url("assets/landing.jpg");
+  padding: 25rem;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 8vh;
+  margin-top: 0rem;
+}
+.header-txt {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+}
+
+.subheader {
+  padding: 3rem;
+}
+
+.trio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3rem;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: solid 1px red;
+  justify-items: center;
+  margin: 1rem;
+}
+
+.pic {
+  padding: 1rem;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--green);
+  padding: 3rem;
+}
+.footer-txt {
+  text-align: left;
+  color: white;
+  font-family: arial;
+  /* margin: 1rem; */
+}
+
+.footer-txt h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  text-align: left;
+  margin: 2rem 0px;
+}
+
+.footer-txt h5 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 1rem 0rem;
+}
+
+.footer-txt p {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: -1rem;
+}
+
+.logo2 {
+  float: left;
+  /* margin: 0 auto; */
+  top: 50%;
+  margin-top: 12rem;
+  /* margin: 2rem; */
+}
+.screen {
+  float: right;
+  /* margin-right: 2rem; */
+}
